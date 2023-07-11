@@ -2,11 +2,11 @@
 
 ## mac-setup ##
 
-### install homebrew ###
+### Install homebrew ###
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-### change mod of the shell ###
+### Change mod of the shell ###
 chmod +x app.sh
 
-### run the script ###
+### Run the script ###
 ./app.sh
