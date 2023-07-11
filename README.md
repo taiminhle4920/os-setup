@@ -10,3 +10,8 @@ chmod +x app.sh
 
 ### Run the script ###
 ./app.sh
+
+
+## nighttab-setup ##
+Copy setting from nighttab.json -> modify the background image
+
