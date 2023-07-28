@@ -18,8 +18,9 @@ chmod +x app.sh
 Main driver and nvidia driver
 
 ### Install app ###
-Install app using winget.txt
-EVkeys
+.\app-installer.bat
+
+Install EVkeys
 
 
 ## nighttab-setup ##
