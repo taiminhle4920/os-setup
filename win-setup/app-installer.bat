@@ -1,0 +1,10 @@
+winget install discord.discord
+winget install google.chrome
+winget install valve.steam
+winget install flow-launcher.flow-launcher
+winget install Microsoft.VisualStudioCode
+winget install 9PF4KZ2VN4W9
+winget install git.git
+winget install olivia.via
+winget install RiotGames.LeagueOfLegends.NA
+winget install nilesoft.shell
