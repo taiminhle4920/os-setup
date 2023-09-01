@@ -1,6 +1,6 @@
 winget install discord.discord
-winget install google.chrome
-winget install valve.steam
+winget install Google.Chrome
+winget install Valve.Steam
 winget install flow-launcher.flow-launcher
 winget install Microsoft.VisualStudioCode
 winget install 9PF4KZ2VN4W9
