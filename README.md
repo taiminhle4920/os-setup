@@ -12,10 +12,11 @@ chmod +x app.sh
 ./app.sh
 
 #### Extra command ####
-- Adding python3 to shell/n
+- Adding python3 to shell
 
 
 echo "alias python=/usr/bin/python3" >> ~/.zshrc
+
 echo 'export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"' >> ~/.zshrc
 
 ## win-setup ##
