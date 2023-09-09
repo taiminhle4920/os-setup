@@ -11,7 +11,7 @@ chmod +x app.sh
 ### Run the script ###
 ./app.sh
 
-### Extra command ###
+#### Extra command ####
 - Adding python3 to shell
 echo "alias python=/usr/bin/python3" >> ~/.zshrc
 echo 'export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"' >> ~/.zshrc
