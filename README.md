@@ -11,6 +11,8 @@ chmod +x app.sh
 ### Run the script ###
 ./app.sh
 
+#### add python to .zshrc
+echo 'export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"' >> ~/.zshrc
 
 ## win-setup ##
 
