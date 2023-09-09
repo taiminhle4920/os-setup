@@ -19,6 +19,11 @@ echo "alias python=/usr/bin/python3" >> ~/.zshrc
 
 echo 'export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"' >> ~/.zshrc
 
+
+
+
+
+
 ## win-setup ##
 
 ### Install driver ###
@@ -28,6 +33,48 @@ Main driver and nvidia driver
 .\app-installer.bat
 
 Install EVkeys
+
+
+
+
+
+
+
+## Fedora ##
+- update dnf
+sudo nano /etc/dnf/dnf.conf
+
+
+fastestmirror=True
+
+max_parallel_downloads=10
+
+defaultyes=True
+
+keepcache=True
+
+
+dnf clean all
+
+sudo dnf update
+
+
+- RPM fusion
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+sudo dnf groupupdate core
+
+- flatpack
+
+ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+- media codec
+sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+
+sudo dnf groupupdate sound-and-video
+
+
+
 
 
 ## nighttab-setup ##
