@@ -76,6 +76,17 @@ sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=Pack
 
 sudo dnf groupupdate sound-and-video
 
+- Check and Install VGA driver
+
+sudo nano /etc/gdm/custom.conf -> uncomment WaylandEnable=false
+
+lspci | grep VGA
+
+sudo dnf install akmod-nvidia
+
+- Install apps:
+
+  udo dnf instpython3-pip steam htop neofetch
 
 
 
