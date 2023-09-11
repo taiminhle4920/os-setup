@@ -38,6 +38,8 @@ Install EVkeys
 
 ## Ubuntu ##
 
+Run command.sh -> ./commands.sh
+
 ### Mutter rounded ###
 https://github.com/yilozt/mutter-rounded
 
