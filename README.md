@@ -19,6 +19,13 @@ echo "alias python=/usr/bin/python3" >> ~/.zshrc
 
 echo 'export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"' >> ~/.zshrc
 
+- Change screenshot to jpg
+
+defaults write com.apple.screencapture type jpg
+
+- Make dock appear instance
+
+defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 0 ;killall Dock
 
 
 
