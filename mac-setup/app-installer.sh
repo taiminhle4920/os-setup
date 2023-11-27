@@ -4,6 +4,7 @@
 brew update
 
 # Install apps using Homebrew
+brew install --cask alex313031-thorium
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask discord
