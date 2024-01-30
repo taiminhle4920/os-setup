@@ -5,7 +5,4 @@ winget install flow-launcher.flow-launcher
 winget install Microsoft.VisualStudioCode
 winget install git.git
 winget install olivia.via
-winget install RiotGames.LeagueOfLegends.NA
 winget install nilesoft.shell
-winget install python
-winget install zoom.zoom
