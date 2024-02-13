@@ -4,16 +4,17 @@
 brew update
 
 # Install apps using Homebrew
-brew install --cask alex313031-thorium
-brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask discord
-brew install --cask mos
 brew install --cask aldente
 brew install --cask visual-studio-code
-brew install --cask postman
 brew install --cask github
 brew install --cask raycast
+brew install --cask docker
+brew install --cask alt-tab
+brew install --cask cleanshot
+brew install git
+brew install python
 
 echo "App installation completed."
 
