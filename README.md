@@ -28,7 +28,9 @@ defaults write com.apple.screencapture type jpg
 defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 0 ;killall Dock
 
 
+- Hide all icon on desktop
 
+defaults write com.apple.finder CreateDesktop false; killall Finder
 
 
 ## win-setup ##
