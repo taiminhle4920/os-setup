@@ -12,7 +12,7 @@ brew install --cask github
 brew install --cask raycast
 brew install --cask docker
 brew install --cask alt-tab
-brew install --cask cleanshot
+brew install --cask mos
 brew install git
 brew install python
 
